@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Copy code and requirements
 COPY requirements.txt .
-COPY inference.py .
+COPY diarization.py .
 
 # Install dependencies
 RUN pip install --upgrade pip
