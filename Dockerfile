@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY requirements.txt .
 COPY diarization.py .
+COPY batch_diarization_resemblyzer.py .
 
 # Install system build dependencies needed for webrtcvad and others
 RUN apt-get update && apt-get install -y \
