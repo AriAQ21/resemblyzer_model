@@ -1,5 +1,6 @@
 resemblyzer
-numpy
-scipy
 torch
-soundfile
+torchaudio
+pyannote.audio
+scikit-learn
+huggingface_hub
