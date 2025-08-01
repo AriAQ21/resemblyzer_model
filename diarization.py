@@ -7,7 +7,7 @@ from pyannote.core import Segment
 import torchaudio
 import os
 
-def main(audio_path, n_speakers=2):
+def main(audio_path, n_speakers=2, chunk_length=None):
     # Authenticate with Hugging Face
     token = os.getenv("HF_TOKEN")
     if not token:
